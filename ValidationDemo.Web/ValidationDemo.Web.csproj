@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ValidationDemo.Domain\ValidationDemo.Domain.csproj" />
+      <ProjectReference Include="..\ValidationDemo.Persistence\ValidationDemo.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
